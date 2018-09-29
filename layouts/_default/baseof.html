@@ -10,7 +10,7 @@
     <div id="preloader">
       <div id="status"></div>
     </div>
-
+    <!-- {{ with .Site.GetPage "/test" }}{{ .Title }}{{ end }} -->
     {{ block "main" . }}
     {{ partial "hero.html" . }}
     {{ partial "section1.html" . }}
@@ -19,7 +19,7 @@
     {{ partial "section4.html" . }}
     {{ partial "section5.html" . }}
     {{ partial "footer.html" . }}
-
+    
     <!-- Back To Top Button -->
     <div id="backtotop"><a href="#"></a></div>
 
