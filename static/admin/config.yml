@@ -15,5 +15,5 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: ATitle, name: atitle, widget: string}
           - {label: ASubtitle, name: asubtitle, widget: string}
-          - {label: Section1, name: section1, widget: list, fields: [
+          - {label: Section1, name: section1, widget: object, fields: [
               {label: "Title", name: "title", widget: string}]}
