@@ -12,7 +12,12 @@
     </div>
     <!-- {{ with .Site.GetPage "/test" }}{{ .Title }}{{ end }} -->
     <!-- {{ $t := .Site.GetPage "/test" }}
+    {{$t.Params.title}} -->
+
+    <!-- {{ $t := .Site.GetPage "/test" }}
     {{$t.Title}} -->
+    
+
     {{ block "main" . }}
     {{ partial "hero.html" . }}
     {{ partial "section1.html" . }}
