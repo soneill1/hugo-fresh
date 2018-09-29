@@ -44,13 +44,13 @@ section4:
     - name: Irma Walters
       quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
       job: Accountant
-      img: 1
+      img: /img/1.png
     - name: John Bradley
       quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
       job: Financial Analyst
-      img: 2
+      img: /img/2.png
     - name: Gary Blackman
       quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
       job: HR Manager
-      img: 3
+      img: /img/3.png
 ---
