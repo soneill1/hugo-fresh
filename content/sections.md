@@ -24,17 +24,17 @@ section2:
     features:
     - title: Powerful and unified interface
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: laptop-globe
+      icon: /img/laptop-globe.svg
     - title: Cross-device synchronisation
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: doc-sync
+      icon: /img/doc-sync.svg
     - title: Nomad system
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: mobile-feed
+      icon: /img/mobile-feed.svg
 section3:
     title: One platform
     subtitle: To rule them all
-    image: illustrations/mockups/app-mockup.png
+    image: /img/app-mockup.png
     buttonText: Get started
     buttonLink: "#"
 section4:
