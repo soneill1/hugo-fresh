@@ -1,4 +1,5 @@
-{{- $section2 := .Params.section2 }}
+{{- $sections := .Site.GetPage "/sections" }}
+{{- $section2 := $sections.Params.section2 }}
 {{- $title    := index $section2 "title" }}
 {{- $subtitle := index $section2 "subtitle" }}
 {{- $features := index $section2 "features" }}

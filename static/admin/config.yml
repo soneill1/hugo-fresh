@@ -8,14 +8,16 @@ collections: # A list of collections the CMS should be able to edit test
   - name: "pages"
     label: "Pages"
     files:
-      - file: "content/_index.md"
+      - file: "content/sections.md"
         label: "Home Page"
         name: "home"
         fields:
-          - {label: ATitle, name: atitle, widget: string}
-          - {label: ASubtitle, name: asubtitle, widget: string}
           - {label: Section1, name: section1, widget: object, fields: [
               {label: "Title", name: "title", widget: string},
               {label: "Subtitle", name: "subtitle", widget: string},
                 {label: Tiles, name: tiles, widget: list, allow_add: false, fields: [
-                  {label: "Title", name: "title", widget: string}]}]}
+                  {label: "Title", name: "title", widget: string},
+                  {label: "Icon", name: "icon", widget: image},
+                  {label: "Text", name: "text", widget: string},
+                  {label: "Url", name: "url", widget: string},
+                  {label: "ButtonText", name: "buttonText", widget: string}]}]}
