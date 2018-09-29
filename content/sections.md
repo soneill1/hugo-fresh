@@ -4,17 +4,17 @@ section1:
     subtitle: with great responsibility
     tiles:
     - title: App builder
-      icon: mouse-globe
+      icon: /img/mouse-globe.svg
       text: This is some explanatory text that is on two rows
       url: /
       buttonText: Free trial
     - title: Cloud integration
-      icon: laptop-cloud
+      icon: /img/laptop-cloud.svg
       text: This is some explanatory text that is on two rows
       url: /
       buttonText: Get started
     - title: Add-ons & plugins
-      icon: plug-cloud
+      icon: /img/plug-cloud.svg
       text: This is some explanatory text that is on two rows
       url: /
       buttonText: Get started
