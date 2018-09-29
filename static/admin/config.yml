@@ -13,6 +13,5 @@ collections: # A list of collections the CMS should be able to edit
         name: "home"
         create: true
         fields:
-          - {label: Section1, name: section1, widget: list, fields: [
-              {label: "Title", name: "title", widget: string},
-              {label: "Subtitle", name: "subtitle", widget: string}]}
+          - {label: ATitle, name: atitle, widget: string}
+          - {label: ASubtitle, name: asubtitle, widget: string}

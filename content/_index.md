@@ -1,4 +1,6 @@
 ---
+  atitle: Great coffee with a conscience by Sean
+  asubtitle: Support sustainable farming while enjoying a cup
   hero:
     # Main hero title
     title: Manage. Deploy.
