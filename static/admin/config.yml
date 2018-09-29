@@ -21,3 +21,10 @@ collections: # A list of collections the CMS should be able to edit test
                   {label: "Text", name: "text", widget: string},
                   {label: "Url", name: "url", widget: string},
                   {label: "ButtonText", name: "buttonText", widget: string}]}]}
+          - {label: Section2, name: section1, widget: object, fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Subtitle", name: "subtitle", widget: string},
+                {label: Features, name: features, widget: list, allow_add: false, fields: [
+                  {label: "Title", name: "title", widget: string},
+                  {label: "Text", name: "text", widget: string},
+                  {label: "Icon", name: "icon", widget: image}]}]}
