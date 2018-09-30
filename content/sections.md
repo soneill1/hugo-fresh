@@ -17,7 +17,7 @@ section1:
       text: This is some explanatory text that is on two rows
       title: Add-ons & plugins
       url: /
-  title: Great power comes 1
+  title: Great power comes
 section2:
   features:
     - icon: /img/laptop-globe.svg
