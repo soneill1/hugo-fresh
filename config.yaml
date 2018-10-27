@@ -3,17 +3,19 @@ languageCode: en-us
 title: Hugo Fresh Theme
 theme: hugo-fresh
 
+blackfriday: map[extensions:[hardLineBreak]]
+
 params:
   font:
     name: "Open Sans"
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Manage. Deploy.
+    title: We are ready to build your dream website!
     # Hero subtitle (optional)
-    subtitle: Lorem ipsum sit dolor amet is dummy text used by the typography industry
+    subtitle: Let our team build you a beautiful modern, mobile friendly website, backed with a full featured content management system at a fraction of the price of our competition.
     # Button text
-    buttontext: Get started
+    buttontext: Learn more
     # Where the main hero button links to
     buttonlink: "#"
     # Hero image (from /images/___)
@@ -28,19 +30,25 @@ params:
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: Features
-    url: /
+    url: '#section2'
   - title: Pricing
-    url: /
-  - title: Dropdown
-    sublinks:
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-  - title: Log in
-    url: /
+    url: '#section1'
+  - title: About us
+    url: '#section3'
+  - title: Testimonials
+    url: '#section4'
+  - title: Contact
+    url: '#section5'
+  # - title: Dropdown
+  #   sublinks:
+  #   - title: Dropdown item
+  #     url: /
+  #   - title: Dropdown item
+  #     url: /
+  #   - title: Dropdown item
+  #     url: /
+  # - title: Log in
+  #   url: /
   - title: Sign up
     url: /
     button: true
@@ -112,7 +120,7 @@ params:
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
       icon: mobile-feed
   section3:
-    title: One platform
+    title: One platform 1
     subtitle: To rule them all
     image: illustrations/mockups/app-mockup.png
     buttonText: Get started
