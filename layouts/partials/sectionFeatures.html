@@ -1,9 +1,10 @@
-{{- $sections := .Site.GetPage "/sections" }}
-{{- $section2 := $sections.Params.section2 }}
-{{- $title    := index $section2 "title" }}
-{{- $subtitle := index $section2 "subtitle" }}
-{{- $features := index $section2 "features" }}
-<section class="section is-medium" id="section2">
+{{- $section1featuresPage := .Site.GetPage "/section1features" }}
+{{- $section1Params := $section1featuresPage.Params }}
+{{- $title    := index $section1Params "title" }}
+{{- $subtitle := index $section1Params "subtitle" }}
+{{- $features := index $section1Params "features" }}
+
+<section class="section is-medium" id="sectionFeatures">
   <div class="container">
     <div class="columns">
       <div class="column is-centered-tablet-portrait">

@@ -1,9 +1,9 @@
-{{- $sections := .Site.GetPage "/sections" }}
-{{- $section4 := $sections.Params.section4 }}
+{{- $sections := .Site.GetPage "/section4testimonials" }}
+{{- $section4 := $sections.Params }}
 {{- $title    := index $section4 "title" }}
 {{- $subtitle := index $section4 "subtitle" }}
 {{- $clients  := index $section4 "clients" }}
-<section class="section is-medium section-secondary" id="section4">
+<section class="section is-medium section-secondary" id="sectionTestimonials">
   <div class="container">
 
     <div class="title-wrapper has-text-centered">

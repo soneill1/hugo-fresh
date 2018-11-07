@@ -30,15 +30,17 @@ params:
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: Features
-    url: '#section2'
+    url: '#sectionFeatures'
+  - title: Portfolio
+    url: '#sectionPortfolio'
   - title: Pricing
-    url: '#section1'
+    url: '#sectionPricing'
   - title: About us
-    url: '#section3'
+    url: '#sectionAbout'
   - title: Testimonials
-    url: '#section4'
-  - title: Contact
-    url: '#section5'
+    url: '#sectionTestimonials'
+  # - title: Contact
+  #   url: '#section5'
   # - title: Dropdown
   #   sublinks:
   #   - title: Dropdown item
@@ -49,8 +51,8 @@ params:
   #     url: /
   # - title: Log in
   #   url: /
-  - title: Sign up
-    url: /
+  - title: Get started
+    url: '#section5'
     button: true
   sidebar:
     # Logo (from /images/logos/___.svg)

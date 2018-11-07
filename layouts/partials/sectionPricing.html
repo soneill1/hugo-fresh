@@ -1,9 +1,10 @@
-{{- $sections := .Site.GetPage "/sections" }}
-{{- $section1 := $sections.Params.section1 }}
+{{- $sections := .Site.GetPage "/section2pricing" }}
+{{- $section1 := $sections.Params }}
 {{- $title    := index $section1 "title" }}
 {{- $subtitle := index $section1 "subtitle" }}
-{{- $tiles    := index $section1 "tiles" }}
-<section class="section section-feature-grey is-medium" id="section1">
+{{- $plans    := index $section1 "plans" }}
+
+<section class="section section-feature-grey is-medium" id="sectionPricing">
   <div class="container">
     <div class="title-wrapper has-text-centered">
       <h2 class="title is-2">{{ $title }}</h2>
@@ -13,7 +14,7 @@
 
     <div class="content-wrapper">
       <div class="columns">
-        {{- range $tiles }}
+        {{- range $plans }}
         <div class="column is-one-third">
           <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
             <div class="card-title">
