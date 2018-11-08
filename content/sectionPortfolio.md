@@ -8,27 +8,27 @@ plans:
       title: For blogging
       url: /
     - buttonText: Get started
-      icon: /img/webpage.png
+      icon: /img/webpage2.png
       text: Website<br>Content Management System<br>.netlify domain name<br>Free hosting forever<br> Added levels of customization<br>5x free support<br>
       title: For business
       url: /
     - buttonText: Get started
-      icon: /img/webpage.png
+      icon: /img/webpage3.png
       text: Website<br>Content Management System<br>.netlify domain name<br>Free hosting forever<br> Highest level of customization<br>10x free support<br>
       title: For portfolios
       url: /
     - buttonText: Get started
-      icon: /img/webpage.png
+      icon: /img/webpage4.png
       text: Website<br>Content Management System<br>.netlify domain name<br>Free hosting forever
       title: For brands
       url: /
     - buttonText: Get started
-      icon: /img/webpage.png
+      icon: /img/webpage5.png
       text: Website<br>Content Management System<br>.netlify domain name<br>Free hosting forever<br> Added levels of customization<br>5x free support<br>
       title: For articles
       url: /
     - buttonText: Get started
-      icon: /img/webpage.png
+      icon: /img/webpage6.png
       text: Website<br>Content Management System<br>.netlify domain name<br>Free hosting forever<br> Highest level of customization<br>10x free support<br>
       title: For designers
       url: /

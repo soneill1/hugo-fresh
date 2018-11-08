@@ -1,6 +1,6 @@
 baseURL: https://bliss.netlify.com/
 languageCode: en-us
-title: Hugo Fresh Theme
+title: Yoceru
 theme: hugo-fresh
 
 blackfriday: map[extensions:[hardLineBreak]]
@@ -17,7 +17,7 @@ params:
     # Button text
     buttontext: Learn more
     # Where the main hero button links to
-    buttonlink: "#"
+    buttonlink: '#sectionFeatures'
     # Hero image (from /images/___)
     image: illustrations/worker.svg
     # Footer logos (from /images/logos/clients/___.svg)
@@ -145,7 +145,7 @@ params:
       img: 3
   footer:
     # Logo (from /images/logos/___)
-    logo: fresh-white-alt.svg
+    logo: /img/yoceru-logo1.png
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
     - link: https://github.com/lucperkins/github-fresh
