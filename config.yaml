@@ -145,7 +145,7 @@ params:
       img: 3
   footer:
     # Logo (from /images/logos/___)
-    logo: /img/yoceru-logo1.png
+    logo: /img/yoceru-logo-white1.png
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
     - link: https://github.com/lucperkins/github-fresh
